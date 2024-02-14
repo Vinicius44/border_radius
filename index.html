@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Border-radius Previewer</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<!--Fonts-->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tektur&family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+	<section class="container">
+		<h1>BORDER RADIUS</h1>
+		<div class="borderRadius">
+			<div id="textArea">
+				
+				
+			</div>
+		</div>
+
+		<div class="valueNumber">
+			<label>Top-Left:</label>
+			<input class="floatRight" type="number"  id="topLeft" placeholder="0"   oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+				    type = "number"
+				    maxlength = "3">
+		</div><!--valueNumber-->
+
+		<div class="valueNumber">
+			<label>Top-Right:</label>
+			<input class="floatRight" type="number" id="topRight" name="" placeholder="0"   oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+				    type = "number"
+				    maxlength = "3">
+		</div><!--valueNumber-->
+
+		<div class="valueNumber">
+			<label>Bottom-Left:</label>
+			<input class="floatRight" type="number" id="bottomLeft" name="" placeholder="0"   oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+				    type = "number"
+				    maxlength = "3">
+		</div><!--valueNumber-->
+
+		<div class="valueNumber">
+			<label>Bottom-Right:</label>
+			<input class="floatRight" type="number" id="bottomRight" name="" placeholder="0"   oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+				    type = "number"
+				    maxlength = "3">
+		</div><!--valueNumber-->
+
+
+		
+
+		
+
+
+
+	</section><!--container-->
+
+	<script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>
